@@ -6,6 +6,10 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
+    min-height: 100vh;
+    min-height: 100dvh; /* Dynamic viewport height for mobile */
+    display: flex;
+    flex-direction: column;
 }
 
 @keyframes gradientShift {
@@ -42,10 +46,28 @@ main {
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 0; /* Allow flex shrinking */
 }
 
 section {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 0; /* Allow flex shrinking */
+    width: 100%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+section[style*="display: block"] {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .gameHeader {
@@ -87,6 +109,8 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 12px;
     margin: 20px 0;
+    justify-items: center;
+    align-items: start;
 }
 
 .tile {
@@ -174,9 +198,16 @@ input[type="text"], input[type="number"] {
 }
 
 @media (max-width: 600px) {
+    body {
+        min-height: 100vh;
+        min-height: 100dvh;
+    }
+    
     main {
         margin: 10px;
         padding: 15px;
+        max-width: none;
+        width: calc(100vw - 20px);
     }
 
     header {
@@ -209,5 +240,10 @@ input[type="text"], input[type="number"] {
     .tile {
         min-height: 90px;
         font-size: 16px;
+    }
+    
+    #tiles {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 8px;
     }
 }
