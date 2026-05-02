@@ -1,0 +1,50 @@
+{
+  "config": {
+    "title": "Word Match Masters!",
+    "max_tries": 3,
+    "tiles_per_question": [4, 6],
+    "game_over_on_mistake": false,
+    "questions_per_game": 10,
+    "board_colors": [
+      "255, 99, 132",
+      "54, 162, 235",
+      "255, 206, 86",
+      "75, 192, 192",
+      "153, 102, 255"
+    ],
+    "tile_colors": [
+      "#FF6384",
+      "#36A2EB",
+      "#FFCE56",
+      "#4BC0C0",
+      "#9966FF",
+      "#FF9F40",
+      "#FF6384",
+      "#C9CBCF",
+      "#4BC0C0",
+      "#FF6384"
+    ],
+    "selected_pool": "Random Words"
+  },
+  "word_pools": [
+    {
+      "file": "data/words_random1.json"
+    },
+    { 
+      "file": "data/synonyms_random1.json" 
+    },
+    {
+      "file": "data/synonyms_4th_grade.json"
+    },
+    {
+      "file": "data/synonyms_5th_grade.json"
+    },
+    {
+      "file": "data/synonyms_6th_grade.json"
+    },
+    {
+      "file": "data/farsi_words_1.json"
+    }
+   
+  ]
+}

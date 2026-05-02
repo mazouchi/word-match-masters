@@ -1,0 +1,251 @@
+{
+  "name": "Farsi Words",
+  "note": "(Up to 5th Grade - Complete)",
+  "questions_per_game": 10,
+  "question_prompt": "Match the related words.",
+  "tags": [
+    "meaning:car","meaning:house","meaning:water","meaning:food","meaning:friend","meaning:school",
+    "meaning:teacher","meaning:student","meaning:book","meaning:pen","meaning:happy","meaning:sad",
+    "meaning:big","meaning:small","meaning:fast","meaning:slow","meaning:hot","meaning:cold",
+    "meaning:good","meaning:bad","meaning:walk","meaning:run","meaning:look","meaning:speak",
+    "meaning:think","meaning:city","meaning:village","meaning:road","meaning:sky","meaning:earth",
+    "meaning:sun","meaning:moon","meaning:star","meaning:tree","meaning:flower","meaning:animal",
+    "meaning:bird","meaning:fish","meaning:time","meaning:day","meaning:night","meaning:work",
+    "meaning:play","meaning:help","meaning:love","meaning:family","meaning:mother","meaning:father",
+    "meaning:child","meaning:color","meaning:red","meaning:blue","meaning:green","meaning:yellow",
+    "meaning:black","meaning:white","meaning:body","meaning:head","meaning:hand","meaning:foot",
+    "meaning:eye","meaning:ear","meaning:nose","meaning:mouth","meaning:clothes","meaning:shirt",
+    "meaning:pants","meaning:shoe","meaning:hat","meaning:nature","meaning:mountain","meaning:river",
+    "meaning:sea","meaning:rain","meaning:snow","meaning:wind","meaning:emotion","meaning:angry",
+    "meaning:afraid","meaning:tired","meaning:excited","meaning:action","meaning:eat","meaning:drink",
+    "meaning:sleep","meaning:read","meaning:write","meaning:open","meaning:close","meaning:object",
+    "meaning:table","meaning:chair","meaning:door","meaning:window","meaning:phone","meaning:bag"
+  ],
+  "word_pool": [
+    {"word":"ماشین","tags":["meaning:car"]},{"word":"خودرو","tags":["meaning:car"]},{"word":"اتومبیل","tags":["meaning:car"]},
+    {"word":"خانه","tags":["meaning:house"]},{"word":"منزل","tags":["meaning:house"]},{"word":"خونه","tags":["meaning:house"]},
+    {"word":"آب","tags":["meaning:water"]},{"word":"مایع","tags":["meaning:water"]},
+    {"word":"غذا","tags":["meaning:food"]},{"word":"خوراک","tags":["meaning:food"]},{"word":"خوراکی","tags":["meaning:food"]},
+    {"word":"دوست","tags":["meaning:friend"]},{"word":"رفیق","tags":["meaning:friend"]},{"word":"یار","tags":["meaning:friend"]},
+    {"word":"مدرسه","tags":["meaning:school"]},{"word":"دبستان","tags":["meaning:school"]},
+    {"word":"معلم","tags":["meaning:teacher"]},{"word":"آموزگار","tags":["meaning:teacher"]},
+    {"word":"دانش‌آموز","tags":["meaning:student"]},{"word":"شاگرد","tags":["meaning:student"]},
+    {"word":"کتاب","tags":["meaning:book"]},{"word":"دفتر","tags":["meaning:book"]},
+    {"word":"قلم","tags":["meaning:pen"]},{"word":"خودکار","tags":["meaning:pen"]},
+    {"word":"شاد","tags":["meaning:happy"]},{"word":"خوشحال","tags":["meaning:happy"]},{"word":"خرسند","tags":["meaning:happy"]},
+    {"word":"غمگین","tags":["meaning:sad"]},{"word":"ناراحت","tags":["meaning:sad"]},{"word":"افسرده","tags":["meaning:sad"]},
+    {"word":"بزرگ","tags":["meaning:big"]},{"word":"عظیم","tags":["meaning:big"]},{"word":"کلان","tags":["meaning:big"]},
+    {"word":"کوچک","tags":["meaning:small"]},{"word":"ریز","tags":["meaning:small"]},
+    {"word":"سریع","tags":["meaning:fast"]},{"word":"تند","tags":["meaning:fast"]},
+    {"word":"کند","tags":["meaning:slow"]},{"word":"آهسته","tags":["meaning:slow"]},
+    {"word":"گرم","tags":["meaning:hot"]},{"word":"داغ","tags":["meaning:hot"]},
+    {"word":"سرد","tags":["meaning:cold"]},{"word":"خنک","tags":["meaning:cold"]},
+    {"word":"خوب","tags":["meaning:good"]},{"word":"عالی","tags":["meaning:good"]},
+    {"word":"بد","tags":["meaning:bad"]},{"word":"ضعیف","tags":["meaning:bad"]},
+
+    {"word":"راه رفتن","tags":["meaning:walk"]},{"word":"قدم زدن","tags":["meaning:walk"]},
+    {"word":"دویدن","tags":["meaning:run"]},{"word":"دو","tags":["meaning:run"]},
+    {"word":"دیدن","tags":["meaning:look"]},{"word":"نگاه کردن","tags":["meaning:look"]},
+    {"word":"صحبت کردن","tags":["meaning:speak"]},{"word":"گفتن","tags":["meaning:speak"]},
+    {"word":"فکر کردن","tags":["meaning:think"]},{"word":"اندیشیدن","tags":["meaning:think"]},
+
+    {"word":"شهر","tags":["meaning:city"]},{"word":"روستا","tags":["meaning:village"]},
+    {"word":"جاده","tags":["meaning:road"]},{"word":"خیابان","tags":["meaning:road"]},
+    {"word":"آسمان","tags":["meaning:sky"]},{"word":"زمین","tags":["meaning:earth"]},
+    {"word":"خورشید","tags":["meaning:sun"]},{"word":"آفتاب","tags":["meaning:sun"]},
+    {"word":"ماه","tags":["meaning:moon"]},{"word":"ستاره","tags":["meaning:star"]},
+    {"word":"درخت","tags":["meaning:tree"]},{"word":"گل","tags":["meaning:flower"]},
+
+    {"word":"حیوان","tags":["meaning:animal"]},{"word":"جانور","tags":["meaning:animal"]},
+    {"word":"پرنده","tags":["meaning:bird"]},{"word":"مرغ","tags":["meaning:bird"]},
+    {"word":"ماهی","tags":["meaning:fish"]},
+
+    {"word":"زمان","tags":["meaning:time"]},{"word":"وقت","tags":["meaning:time"]},
+    {"word":"روز","tags":["meaning:day"]},{"word":"شب","tags":["meaning:night"]},
+
+    {"word":"کار","tags":["meaning:work"]},{"word":"شغل","tags":["meaning:work"]},
+    {"word":"بازی","tags":["meaning:play"]},{"word":"تفریح","tags":["meaning:play"]},
+    {"word":"کمک","tags":["meaning:help"]},{"word":"یاری","tags":["meaning:help"]},
+    {"word":"عشق","tags":["meaning:love"]},{"word":"دوست داشتن","tags":["meaning:love"]},
+
+    {"word":"خانواده","tags":["meaning:family"]},{"word":"فامیل","tags":["meaning:family"]},
+    {"word":"مادر","tags":["meaning:mother"]},{"word":"مامان","tags":["meaning:mother"]},
+    {"word":"پدر","tags":["meaning:father"]},{"word":"بابا","tags":["meaning:father"]},
+    {"word":"کودک","tags":["meaning:child"]},{"word":"بچه","tags":["meaning:child"]},
+
+    {"word":"قرمز","tags":["meaning:red","meaning:color"]},{"word":"آبی","tags":["meaning:blue","meaning:color"]},
+    {"word":"سبز","tags":["meaning:green","meaning:color"]},{"word":"زرد","tags":["meaning:yellow","meaning:color"]},
+    {"word":"سیاه","tags":["meaning:black","meaning:color"]},{"word":"سفید","tags":["meaning:white","meaning:color"]},
+
+    {"word":"سر","tags":["meaning:head","meaning:body"]},{"word":"دست","tags":["meaning:hand","meaning:body"]},
+    {"word":"پا","tags":["meaning:foot","meaning:body"]},{"word":"چشم","tags":["meaning:eye","meaning:body"]},
+    {"word":"گوش","tags":["meaning:ear","meaning:body"]},{"word":"بینی","tags":["meaning:nose","meaning:body"]},
+    {"word":"دهان","tags":["meaning:mouth","meaning:body"]},
+
+    {"word":"پیراهن","tags":["meaning:shirt","meaning:clothes"]},{"word":"شلوار","tags":["meaning:pants","meaning:clothes"]},
+    {"word":"کفش","tags":["meaning:shoe","meaning:clothes"]},{"word":"کلاه","tags":["meaning:hat","meaning:clothes"]},
+
+    {"word":"کوه","tags":["meaning:mountain","meaning:nature"]},{"word":"رود","tags":["meaning:river","meaning:nature"]},
+    {"word":"دریا","tags":["meaning:sea","meaning:nature"]},{"word":"باران","tags":["meaning:rain","meaning:nature"]},
+    {"word":"برف","tags":["meaning:snow","meaning:nature"]},{"word":"باد","tags":["meaning:wind","meaning:nature"]},
+
+    {"word":"عصبانی","tags":["meaning:angry","meaning:emotion"]},{"word":"ترسیده","tags":["meaning:afraid","meaning:emotion"]},
+    {"word":"خسته","tags":["meaning:tired","meaning:emotion"]},{"word":"هیجان‌زده","tags":["meaning:excited","meaning:emotion"]},
+
+    {"word":"خوردن","tags":["meaning:eat","meaning:action"]},{"word":"نوشیدن","tags":["meaning:drink","meaning:action"]},
+    {"word":"خوابیدن","tags":["meaning:sleep","meaning:action"]},{"word":"خواندن","tags":["meaning:read","meaning:action"]},
+    {"word":"نوشتن","tags":["meaning:write","meaning:action"]},
+    {"word":"باز کردن","tags":["meaning:open","meaning:action"]},{"word":"بستن","tags":["meaning:close","meaning:action"]},
+
+    {"word":"میز","tags":["meaning:table","meaning:object"]},{"word":"صندلی","tags":["meaning:chair","meaning:object"]},
+    {"word":"در","tags":["meaning:door","meaning:object"]},{"word":"پنجره","tags":["meaning:window","meaning:object"]},
+    {"word":"تلفن","tags":["meaning:phone","meaning:object"]},{"word":"کیف","tags":["meaning:bag","meaning:object"]},
+
+    {"word":"کلاس","tags":["meaning:class"]},
+    {"word":"درس","tags":["meaning:lesson"]},
+    {"word":"آزمون","tags":["meaning:test"]},
+    {"word":"امتحان","tags":["meaning:test"]},
+
+    {"word":"ساعت","tags":["meaning:clock","meaning:time"]},
+    {"word":"دقیقه","tags":["meaning:time"]},
+    {"word":"ثانیه","tags":["meaning:time"]},
+
+    {"word":"صبح","tags":["meaning:morning"]},
+    {"word":"عصر","tags":["meaning:evening"]},
+
+    {"word":"هوا","tags":["meaning:weather"]},
+    {"word":"ابر","tags":["meaning:cloud"]},
+    {"word":"آفتابی","tags":["meaning:sunny"]},
+    {"word":"بارانی","tags":["meaning:rainy"]},
+
+    {"word":"میوه","tags":["meaning:fruit"]},
+    {"word":"سیب","tags":["meaning:fruit"]},
+    {"word":"موز","tags":["meaning:fruit"]},
+    {"word":"پرتقال","tags":["meaning:fruit"]},
+
+    {"word":"سبزی","tags":["meaning:vegetable"]},
+    {"word":"گوجه","tags":["meaning:vegetable"]},
+    {"word":"خیار","tags":["meaning:vegetable"]},
+
+    {"word":"گوشت","tags":["meaning:meat"]},
+    {"word":"مرغ","tags":["meaning:meat","meaning:bird"]},
+
+    {"word":"نان","tags":["meaning:bread"]},
+    {"word":"برنج","tags":["meaning:rice"]},
+
+    {"word":"آشپزخانه","tags":["meaning:kitchen"]},
+    {"word":"اتاق","tags":["meaning:room"]},
+    {"word":"حمام","tags":["meaning:bathroom"]},
+
+    {"word":"پسر","tags":["meaning:boy"]},
+    {"word":"دختر","tags":["meaning:girl"]},
+
+    {"word":"برادر","tags":["meaning:brother"]},
+    {"word":"خواهر","tags":["meaning:sister"]},
+
+    {"word":"پدربزرگ","tags":["meaning:grandfather"]},
+    {"word":"مادربزرگ","tags":["meaning:grandmother"]},
+
+    {"word":"لباس","tags":["meaning:clothes"]},
+    {"word":"کت","tags":["meaning:clothes"]},
+
+    {"word":"دوچرخه","tags":["meaning:bicycle"]},
+    {"word":"اتوبوس","tags":["meaning:bus"]},
+    {"word":"قطار","tags":["meaning:train"]},
+
+    {"word":"ایستگاه","tags":["meaning:station"]},
+    {"word":"فرودگاه","tags":["meaning:airport"]},
+
+    {"word":"بازار","tags":["meaning:market"]},
+    {"word":"مغازه","tags":["meaning:shop"]},
+
+    {"word":"پول","tags":["meaning:money"]},
+    {"word":"سکه","tags":["meaning:money"]},
+
+    {"word":"بازیگر","tags":["meaning:actor"]},
+    {"word":"نویسنده","tags":["meaning:writer"]},
+
+    {"word":"نقاشی","tags":["meaning:painting"]},
+    {"word":"تصویر","tags":["meaning:image"]},
+
+    {"word":"آهنگ","tags":["meaning:music"]},
+    {"word":"صدا","tags":["meaning:sound"]},
+
+    {"word":"سوال","tags":["meaning:question"]},
+    {"word":"پرسش","tags":["meaning:question"]},
+
+    {"word":"جواب","tags":["meaning:answer"]},
+
+    {"word":"شروع","tags":["meaning:start"]},
+    {"word":"پایان","tags":["meaning:end"]},
+
+    {"word":"ورزش","tags":["meaning:sport"]},
+    {"word":"فوتبال","tags":["meaning:sport"]},
+
+    {"word":"دویدن","tags":["meaning:run"]},
+    {"word":"پریدن","tags":["meaning:jump"]},
+
+    {"word":"نشستن","tags":["meaning:sit"]},
+    {"word":"ایستادن","tags":["meaning:stand"]},
+
+    {"word":"باز","tags":["meaning:open"]},
+    {"word":"بسته","tags":["meaning:close"]},
+
+    {"word":"سنگ","tags":["meaning:rock"]},
+    {"word":"شن","tags":["meaning:sand"]},
+
+    {"word":"جنگل","tags":["meaning:forest"]},
+    {"word":"بیابان","tags":["meaning:desert"]},
+
+    {"word":"دریاچه","tags":["meaning:lake"]},
+    {"word":"چشمه","tags":["meaning:spring"]},
+
+    {"word":"پل","tags":["meaning:bridge"]},
+    {"word":"برج","tags":["meaning:tower"]},
+
+    {"word":"شیر","tags":["meaning:lion","meaning:milk"]},
+    {"word":"گربه","tags":["meaning:cat"]},
+    {"word":"سگ","tags":["meaning:dog"]},
+
+    {"word":"اسب","tags":["meaning:horse"]},
+    {"word":"گاو","tags":["meaning:cow"]},
+
+    {"word":"پرواز","tags":["meaning:flight"]},
+    {"word":"شنا","tags":["meaning:swim"]},
+
+    {"word":"خرید","tags":["meaning:buy"]},
+    {"word":"فروش","tags":["meaning:sell"]},
+
+    {"word":"گرفتن","tags":["meaning:take"]},
+    {"word":"دادن","tags":["meaning:give"]},
+
+    {"word":"دیدار","tags":["meaning:meet"]},
+    {"word":"ملاقات","tags":["meaning:meet"]},
+
+    {"word":"یاد گرفتن","tags":["meaning:learn"]},
+    {"word":"آموختن","tags":["meaning:learn"]},
+
+    {"word":"آوردن","tags":["meaning:bring"]},
+    {"word":"بردن","tags":["meaning:take"]},
+
+    {"word":"بالا","tags":["meaning:up"]},
+    {"word":"پایین","tags":["meaning:down"]},
+
+    {"word":"داخل","tags":["meaning:inside"]},
+    {"word":"خارج","tags":["meaning:outside"]},
+
+    {"word":"چپ","tags":["meaning:left"]},
+    {"word":"راست","tags":["meaning:right"]},
+
+    {"word":"زیاد","tags":["meaning:many"]},
+    {"word":"کم","tags":["meaning:few"]},
+
+    {"word":"همیشه","tags":["meaning:always"]},
+    {"word":"هرگز","tags":["meaning:never"]},
+
+    {"word":"امروز","tags":["meaning:today"]},
+    {"word":"دیروز","tags":["meaning:yesterday"]},
+    {"word":"فردا","tags":["meaning:tomorrow"]}
+
+  ]
+}

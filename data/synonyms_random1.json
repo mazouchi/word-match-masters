@@ -1,0 +1,32 @@
+ {
+      "name": "Synonyms",
+      "questions_per_game": 8,
+      "question_prompt": "Match synonyms.",
+      "tags": ["synonym:happy", "synonym:sad", "synonym:big", "synonym:small", "synonym:fast", "synonym:slow", "synonym:run", "synonym:walk"],
+      "word_pool": [
+        {"word": "happy", "tags": ["synonym:happy"]},
+        {"word": "joyful", "tags": ["synonym:happy"]},
+        {"word": "glad", "tags": ["synonym:happy"]},
+        {"word": "sad", "tags": ["synonym:sad"]},
+        {"word": "gloomy", "tags": ["synonym:sad"]},
+        {"word": "downcast", "tags": ["synonym:sad"]},
+        {"word": "big", "tags": ["synonym:big"]},
+        {"word": "large", "tags": ["synonym:big"]},
+        {"word": "huge", "tags": ["synonym:big"]},
+        {"word": "small", "tags": ["synonym:small"]},
+        {"word": "tiny", "tags": ["synonym:small"]},
+        {"word": "miniature", "tags": ["synonym:small"]},
+        {"word": "fast", "tags": ["synonym:fast"]},
+        {"word": "swift", "tags": ["synonym:fast"]},
+        {"word": "rapid", "tags": ["synonym:fast"]},
+        {"word": "slow", "tags": ["synonym:slow"]},
+        {"word": "sluggish", "tags": ["synonym:slow"]},
+        {"word": "lethargic", "tags": ["synonym:slow"]},
+        {"word": "run", "tags": ["synonym:run"]},
+        {"word": "sprint", "tags": ["synonym:run"]},
+        {"word": "dash", "tags": ["synonym:run"]},
+        {"word": "walk", "tags": ["synonym:walk"]},
+        {"word": "stroll", "tags": ["synonym:walk"]},
+        {"word": "amble", "tags": ["synonym:walk"]}
+      ]
+    }

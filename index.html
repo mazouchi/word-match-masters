@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Match Masters</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Inline manifest to prevent server dependency -->
+    <link rel="manifest" href="data:application/manifest+json,{%22name%22:%22Word%20Match%20Masters!%22,%22short_name%22:%22WMM%22,%22start_url%22:%22index2.html%22,%22display%22:%22standalone%22,%22background_color%22:%22%23ffffff%22,%22theme_color%22:%22%23000000%22,%22icons%22:[{%22src%22:%22icon.png%22,%22sizes%22:%22192x192%22,%22type%22:%22image/png%22}]}">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon" href="icon.png">
+</head>
+<body>
+    <header>
+        <h1 id="appTitle">Word Match Masters</h1>
+        <nav>
+            <button id="reset">Reset</button>
+            <button id="restart">Restart</button>
+            <button id="settings">Settings</button>
+            <button id="leaderboardBtn">Score Board</button>
+        </nav>
+    </header>
+    <main>
+        <section id="landing">
+            <h2>Enter Your Name</h2>
+            <input type="text" id="playerName" placeholder="Your Name">
+            <br><br>
+            <label for="startingPoolSelect">Choose a word pool:</label>
+            <select id="startingPoolSelect"></select>
+            <br><br>
+            <button id="startGame">Start Game</button>
+        </section>
+        <section id="game" style="display: none;">
+            <div id="questionContainer">
+                <div class="score-center">
+                    <p id="statsText">Score: 0 / 0</p>
+                </div>
+                <div class="gameInfo">
+                    <p id="questionCounter">Question 0/0</p>
+                    <p id="questionText">Find the two words that match!</p>
+                </div>
+                <div id="tiles"></div>
+                <button id="submit" disabled>Submit</button>
+                <button id="nextQuestionBtn" style="display: none;">Next Question</button>
+                <p id="feedback"></p>
+            </div>
+            <div id="scoreContainer" style="display: none;">
+                <h2>Game Over</h2>
+                <p>Your Score: <span id="finalScore"></span></p>
+                <button id="playAgain">Play Again</button>
+            </div>
+        </section>
+        <section id="settings" style="display: none;">
+            <h2>Settings</h2>
+            <label>Word Pool: <select id="wordPoolSelect"></select></label><br>
+            <label>Max Tries: <input type="number" id="maxTries" min="1"></label><br>
+            <label>Tiles Min: <input type="number" id="tilesMin" min="3"></label><br>
+            <label>Tiles Max: <input type="number" id="tilesMax" min="3"></label><br>
+            <label>Game Over on Mistake: <input type="checkbox" id="gameOverMistake"></label><br>
+            <label>Questions per Game: <input type="number" id="questionsPerGame" min="1"></label><br>
+            <button id="saveSettings">Save</button>
+        </section>
+        <section id="leaderboard" style="display: none;">
+            <h2>Score Board</h2>
+            <div id="leaderList"></div>
+        </section>
+    </main>
+    
+    <!-- Load config from in-memory data -->
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

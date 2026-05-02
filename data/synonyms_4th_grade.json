@@ -1,0 +1,215 @@
+{
+  "name": "4th Grade Synonyms",
+  "questions_per_game": 6,
+  "question_prompt": "Match synonyms for 4th grade.",
+  "tags": [
+    "synonym:happy","synonym:sad","synonym:big","synonym:small","synonym:fast","synonym:slow",
+    "synonym:smart","synonym:angry","synonym:brave","synonym:scared","synonym:begin","synonym:end",
+    "synonym:look","synonym:walk","synonym:run","synonym:good","synonym:bad","synonym:loud",
+    "synonym:quiet","synonym:hot","synonym:cold","synonym:easy","synonym:hard","synonym:rich",
+    "synonym:poor","synonym:clean","synonym:dirty","synonym:strong","synonym:weak","synonym:funny",
+    "synonym:boring","synonym:bright","synonym:dark","synonym:help","synonym:build","synonym:break",
+    "synonym:jump","synonym:think","synonym:see","synonym:talk","synonym:job","synonym:place",
+    "synonym:food","synonym:friend","synonym:teacher","synonym:student","synonym:car","synonym:house",
+    "synonym:water","synonym:weather"
+  ],
+  "word_pool": [
+
+    {"word":"happy","tags":["synonym:happy"]},
+    {"word":"joyful","tags":["synonym:happy"]},
+    {"word":"cheerful","tags":["synonym:happy"]},
+    {"word":"glad","tags":["synonym:happy"]},
+
+    {"word":"sad","tags":["synonym:sad"]},
+    {"word":"gloomy","tags":["synonym:sad"]},
+    {"word":"unhappy","tags":["synonym:sad"]},
+    {"word":"downcast","tags":["synonym:sad"]},
+
+    {"word":"big","tags":["synonym:big"]},
+    {"word":"large","tags":["synonym:big"]},
+    {"word":"huge","tags":["synonym:big"]},
+    {"word":"giant","tags":["synonym:big"]},
+
+    {"word":"small","tags":["synonym:small"]},
+    {"word":"tiny","tags":["synonym:small"]},
+    {"word":"little","tags":["synonym:small"]},
+    {"word":"mini","tags":["synonym:small"]},
+
+    {"word":"fast","tags":["synonym:fast"]},
+    {"word":"quick","tags":["synonym:fast"]},
+    {"word":"rapid","tags":["synonym:fast"]},
+    {"word":"speedy","tags":["synonym:fast"]},
+
+    {"word":"slow","tags":["synonym:slow"]},
+    {"word":"sluggish","tags":["synonym:slow"]},
+    {"word":"lazy","tags":["synonym:slow"]},
+
+    {"word":"smart","tags":["synonym:smart"]},
+    {"word":"clever","tags":["synonym:smart"]},
+    {"word":"bright","tags":["synonym:smart","synonym:bright"]},
+
+    {"word":"angry","tags":["synonym:angry"]},
+    {"word":"mad","tags":["synonym:angry"]},
+    {"word":"furious","tags":["synonym:angry"]},
+
+    {"word":"brave","tags":["synonym:brave"]},
+    {"word":"bold","tags":["synonym:brave"]},
+    {"word":"fearless","tags":["synonym:brave"]},
+
+    {"word":"scared","tags":["synonym:scared"]},
+    {"word":"afraid","tags":["synonym:scared"]},
+    {"word":"frightened","tags":["synonym:scared"]},
+
+    {"word":"begin","tags":["synonym:begin"]},
+    {"word":"start","tags":["synonym:begin"]},
+    {"word":"launch","tags":["synonym:begin"]},
+
+    {"word":"end","tags":["synonym:end"]},
+    {"word":"finish","tags":["synonym:end"]},
+    {"word":"close","tags":["synonym:end"]},
+
+    {"word":"look","tags":["synonym:look"]},
+    {"word":"see","tags":["synonym:look","synonym:see"]},
+    {"word":"watch","tags":["synonym:look"]},
+
+    {"word":"walk","tags":["synonym:walk"]},
+    {"word":"stroll","tags":["synonym:walk"]},
+    {"word":"march","tags":["synonym:walk"]},
+
+    {"word":"run","tags":["synonym:run"]},
+    {"word":"race","tags":["synonym:run"]},
+    {"word":"sprint","tags":["synonym:run"]},
+
+    {"word":"good","tags":["synonym:good"]},
+    {"word":"great","tags":["synonym:good"]},
+    {"word":"excellent","tags":["synonym:good"]},
+
+    {"word":"bad","tags":["synonym:bad"]},
+    {"word":"awful","tags":["synonym:bad"]},
+    {"word":"terrible","tags":["synonym:bad"]},
+
+    {"word":"loud","tags":["synonym:loud"]},
+    {"word":"noisy","tags":["synonym:loud"]},
+    {"word":"booming","tags":["synonym:loud"]},
+
+    {"word":"quiet","tags":["synonym:quiet"]},
+    {"word":"silent","tags":["synonym:quiet"]},
+    {"word":"calm","tags":["synonym:quiet"]},
+
+    {"word":"hot","tags":["synonym:hot"]},
+    {"word":"warm","tags":["synonym:hot"]},
+    {"word":"heated","tags":["synonym:hot"]},
+
+    {"word":"cold","tags":["synonym:cold"]},
+    {"word":"cool","tags":["synonym:cold"]},
+    {"word":"freezing","tags":["synonym:cold"]},
+
+    {"word":"easy","tags":["synonym:easy"]},
+    {"word":"simple","tags":["synonym:easy"]},
+    {"word":"effortless","tags":["synonym:easy"]},
+
+    {"word":"hard","tags":["synonym:hard"]},
+    {"word":"difficult","tags":["synonym:hard"]},
+    {"word":"tough","tags":["synonym:hard"]},
+
+    {"word":"rich","tags":["synonym:rich"]},
+    {"word":"wealthy","tags":["synonym:rich"]},
+    {"word":"loaded","tags":["synonym:rich"]},
+
+    {"word":"poor","tags":["synonym:poor"]},
+    {"word":"needy","tags":["synonym:poor"]},
+    {"word":"broke","tags":["synonym:poor"]},
+
+    {"word":"clean","tags":["synonym:clean"]},
+    {"word":"neat","tags":["synonym:clean"]},
+    {"word":"tidy","tags":["synonym:clean"]},
+
+    {"word":"dirty","tags":["synonym:dirty"]},
+    {"word":"messy","tags":["synonym:dirty"]},
+    {"word":"filthy","tags":["synonym:dirty"]},
+
+    {"word":"strong","tags":["synonym:strong"]},
+    {"word":"powerful","tags":["synonym:strong"]},
+    {"word":"sturdy","tags":["synonym:strong"]},
+
+    {"word":"weak","tags":["synonym:weak"]},
+    {"word":"fragile","tags":["synonym:weak"]},
+    {"word":"feeble","tags":["synonym:weak"]},
+
+    {"word":"funny","tags":["synonym:funny"]},
+    {"word":"humorous","tags":["synonym:funny"]},
+    {"word":"silly","tags":["synonym:funny"]},
+
+    {"word":"boring","tags":["synonym:boring"]},
+    {"word":"dull","tags":["synonym:boring"]},
+    {"word":"tedious","tags":["synonym:boring"]},
+
+    {"word":"dark","tags":["synonym:dark"]},
+    {"word":"dim","tags":["synonym:dark"]},
+    {"word":"shadowy","tags":["synonym:dark"]},
+
+    {"word":"help","tags":["synonym:help"]},
+    {"word":"assist","tags":["synonym:help"]},
+    {"word":"aid","tags":["synonym:help"]},
+
+    {"word":"build","tags":["synonym:build"]},
+    {"word":"create","tags":["synonym:build"]},
+    {"word":"construct","tags":["synonym:build"]},
+
+    {"word":"break","tags":["synonym:break"]},
+    {"word":"crack","tags":["synonym:break"]},
+    {"word":"smash","tags":["synonym:break"]},
+
+    {"word":"jump","tags":["synonym:jump"]},
+    {"word":"leap","tags":["synonym:jump"]},
+    {"word":"hop","tags":["synonym:jump"]},
+
+    {"word":"think","tags":["synonym:think"]},
+    {"word":"ponder","tags":["synonym:think"]},
+    {"word":"consider","tags":["synonym:think"]},
+
+    {"word":"talk","tags":["synonym:talk"]},
+    {"word":"speak","tags":["synonym:talk"]},
+    {"word":"chat","tags":["synonym:talk"]},
+
+    {"word":"job","tags":["synonym:job"]},
+    {"word":"work","tags":["synonym:job"]},
+    {"word":"task","tags":["synonym:job"]},
+
+    {"word":"place","tags":["synonym:place"]},
+    {"word":"area","tags":["synonym:place"]},
+    {"word":"spot","tags":["synonym:place"]},
+
+    {"word":"food","tags":["synonym:food"]},
+    {"word":"meal","tags":["synonym:food"]},
+    {"word":"snack","tags":["synonym:food"]},
+
+    {"word":"friend","tags":["synonym:friend"]},
+    {"word":"buddy","tags":["synonym:friend"]},
+    {"word":"pal","tags":["synonym:friend"]},
+
+    {"word":"teacher","tags":["synonym:teacher"]},
+    {"word":"educator","tags":["synonym:teacher"]},
+    {"word":"instructor","tags":["synonym:teacher"]},
+
+    {"word":"student","tags":["synonym:student"]},
+    {"word":"pupil","tags":["synonym:student"]},
+    {"word":"learner","tags":["synonym:student"]},
+
+    {"word":"car","tags":["synonym:car"]},
+    {"word":"auto","tags":["synonym:car"]},
+    {"word":"vehicle","tags":["synonym:car"]},
+
+    {"word":"house","tags":["synonym:house"]},
+    {"word":"home","tags":["synonym:house"]},
+    {"word":"residence","tags":["synonym:house"]},
+
+    {"word":"water","tags":["synonym:water"]},
+    {"word":"liquid","tags":["synonym:water"]},
+    {"word":"drink","tags":["synonym:water"]},
+
+    {"word":"weather","tags":["synonym:weather"]},
+    {"word":"climate","tags":["synonym:weather"]},
+    {"word":"forecast","tags":["synonym:weather"]}
+  ]
+}
