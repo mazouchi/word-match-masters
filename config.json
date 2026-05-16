@@ -3,6 +3,9 @@
     "title": "Word Match Masters!",
     "max_tries": 3,
     "tiles_per_question": [4, 6],
+    "score_point": 100,
+    "score_time_point": 20,
+    "score_time_interval": 2,
     "game_over_on_mistake": false,
     "questions_per_game": 10,
     "board_colors": [

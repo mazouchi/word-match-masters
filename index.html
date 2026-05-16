@@ -32,11 +32,13 @@
             <select id="startingPoolSelect"></select>
             <br><br>
             <button id="startGame">Start Game</button>
+            <p id="buildTag" class="build-tag">(Build 20260515)</p>
         </section>
         <section id="game" style="display: none;">
             <div id="questionContainer">
                 <div class="score-center">
                     <p id="statsText">Score: 0 / 0</p>
+                    <div id="timerContainer"><span id="timer">Time: 0s</span></div>
                 </div>
                 <div class="gameInfo">
                     <p id="questionCounter">Question 0/0</p>
@@ -57,10 +59,13 @@
             <h2>Settings</h2>
             <label>Word Pool: <select id="wordPoolSelect"></select></label><br>
             <label>Max Tries: <input type="number" id="maxTries" min="1"></label><br>
-            <label>Tiles Min: <input type="number" id="tilesMin" min="3"></label><br>
-            <label>Tiles Max: <input type="number" id="tilesMax" min="3"></label><br>
+            <label>Tiles Options (comma-separated): <input type="text" id="tilesOptions" placeholder="e.g. 4,5,6"></label><br>
             <label>Game Over on Mistake: <input type="checkbox" id="gameOverMistake"></label><br>
             <label>Questions per Game: <input type="number" id="questionsPerGame" min="1"></label><br>
+            <h3>Scoring</h3>
+            <label>Base Score per Question: <input type="number" id="scorePoint" min="0"></label><br>
+            <label>Time Bonus Points: <input type="number" id="scoreTimePoint" min="0"></label><br>
+            <label>Time Interval (seconds): <input type="number" id="scoreTimeInterval" min="1"></label><br>
             <button id="saveSettings">Save</button>
         </section>
         <section id="leaderboard" style="display: none;">
